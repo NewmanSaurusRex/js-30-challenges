@@ -36,7 +36,7 @@ body {
 
 .hand {
   width: 50%;
-  height: 6px;
+  height: 5px;
   background: black;
   position: absolute;
   top: 50%;
@@ -44,4 +44,14 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: ease-in-out;
+}
+
+.hour-hand {
+  background: whitesmoke;
+  height: 10px;
+}
+
+.min-hand {
+  background: gray;
+  height: 7px;
 }
