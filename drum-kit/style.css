@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background-size: cover;
+  background: url(./images/behind-kit.jpeg) center;
+  opacity: 0.8;
 }
 
 body,
@@ -16,6 +17,7 @@ html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }
 
 .key {
@@ -30,17 +32,20 @@ html {
   color: white;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
+  opacity: 1;
 }
 
 .playing {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
+  opacity: 1;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+  opacity: 1;
 }
 
 .sound {
@@ -48,4 +53,5 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #ffc600;
+  opacity: 1;
 }
