@@ -1,0 +1,23 @@
+body {
+  background: #e0e0e0;
+  max-width: 80%;
+  border: 2px solid #a2c11c;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #2c5d63;
+}
+
+p {
+  font-size: 16px;
+}
