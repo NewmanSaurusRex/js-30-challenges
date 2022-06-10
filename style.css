@@ -4,6 +4,7 @@ body {
   border: 2px solid #a2c11c;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -14,12 +15,24 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 28px;
   color: #2c5d63;
+  margin-bottom: 5px !important;
 }
 
 p {
   font-size: 16px;
+  font-weight: 500;
+  color: #283739;
+}
+
+p em {
+  color: #2c5d63;
+  font-weight: 400;
+}
+
+p strong {
+  color: #a2c11c;
 }
 
 img {
@@ -27,4 +40,10 @@ img {
   border: 1px solid #283739;
   border-radius: 4px;
   padding: 5px;
+}
+
+.btn-launch {
+  background: #a2c11c;
+  color: #fff;
+  display: block;
 }
